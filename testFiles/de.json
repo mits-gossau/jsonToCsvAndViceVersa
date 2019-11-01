@@ -1,0 +1,20 @@
+{
+  "general": {
+    "currency": "CHF",
+    "amount": "Anzahl",
+    "unitPrice": "Wert pro Karte",
+    "backToOverview": "zurück zur Übersicht",
+    "yes": "Ja",
+    "no": "Nein"
+  },
+  "infoModal": {
+    "greeting": {
+      "title": "Grussbotschaft",
+      "body": "Fügen Sie eine persönliche Notiz an, welche auf den Gutschein gedruckt wird."
+    },
+    "packaging": {
+      "title": "Gratis Geschenkverpackung",
+      "body": "Auf Wunsch legen wir gerne kostenlos die edle Gratis- Geschenkverpackung bei."
+    }
+  }
+}
