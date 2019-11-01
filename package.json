@@ -1,0 +1,25 @@
+{
+  "name": "jsontocsvandviceversa",
+  "version": "1.0.0",
+  "description": "import export json/csv for translation",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js json=testFiles/de.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mits-gossau/jsonToCsvAndViceVersa.git"
+  },
+  "keywords": [
+    "csv",
+    "json",
+    "angular",
+    "translation"
+  ],
+  "author": "Silvan Strübi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mits-gossau/jsonToCsvAndViceVersa/issues"
+  },
+  "homepage": "https://github.com/mits-gossau/jsonToCsvAndViceVersa#readme"
+}
