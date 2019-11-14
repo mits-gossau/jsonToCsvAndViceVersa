@@ -27,6 +27,12 @@ const newLine = '\n'
  * @type {string}
  * */
 const nameSpaceSeparator = '_'
+/**
+ * replace \r\n with <br> for csv otherwise it makes real line breaks
+ * and transform those <br>'s back into \r\n for json
+ * @type {string[]}
+ * */
+const avoidCsvLinebreaks = ['\r\n', '<br>']
 
 /**
  * makes a CSV string from an object
@@ -42,7 +48,7 @@ const jsonToCsv = (obj, buffer = [], namespace = '', returnStr = true) => {
         if(typeof obj[key] === 'object') buffer = buffer.concat(jsonToCsv(obj[key], [], `${namespace}${key}${nameSpaceSeparator}`, false))
         if(typeof obj[key] === 'string') buffer.push(`${namespace}${key}${separator}${textQualifier}${obj[key]}${textQualifier}${newLine}`)
     }
-    return returnStr ? buffer.join('') : buffer
+    return returnStr ? buffer.join('').replace(new RegExp(`${avoidCsvLinebreaks[0]}`, 'g'), avoidCsvLinebreaks[1]) : buffer
 }
 //fetch('de.json').then(resp => resp.json().then(json => console.log(jsonToCsv(json))))
 
@@ -59,7 +65,7 @@ const csvToJson = (str, buffer = {}) => {
         if(line){
             let [all, key, value] = line.match(/(.*?),(.*)/)
             if(key && value){
-                value = value.replace(new RegExp(`^${textQualifier}(.+(?=${textQualifier}$))${textQualifier}$`), '$1')
+                value = value.replace(new RegExp(`^${textQualifier}(.+(?=${textQualifier}$))${textQualifier}$`), '$1').replace(new RegExp(`${avoidCsvLinebreaks[1]}`, 'g'), avoidCsvLinebreaks[0])
                 key.split(nameSpaceSeparator).reduce((obj, key, i, keys) => (keys.length -1 === i ? obj[key] = value : obj[key] ? obj[key] : (obj[key] = {})), buffer)
             }else{console.warn('csvToJson was not able to reliably read: ', all)}
         }

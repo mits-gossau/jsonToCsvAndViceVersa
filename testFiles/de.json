@@ -15,6 +15,317 @@
     "packaging": {
       "title": "Gratis Geschenkverpackung",
       "body": "Auf Wunsch legen wir gerne kostenlos die edle Gratis- Geschenkverpackung bei."
+    },
+    "cardNumber": {
+      "title": "Kartennummer",
+      "body": "Wählen Sie aus dem linken Dropdown Ihren Nummernblock aus und geben Sie dann rechts daneben die 10-stellige Kartennummer ein."
+    },
+    "pin": {
+      "title": "PIN",
+      "body": "Bitte geben Sie hier die 4-stellige Geheimzahl ein. Sie darf nur aus Zahlen bestehen"
+    }
+  },
+  "header": {
+    "buyCard": "Kaufen",
+    "reloadCard": "Abfragen & Aufladen",
+    "logo": {
+      "migros": "Migros Logo",
+      "giftCard": "Geschenkkarten-Welt Logo"
+    },
+    "register": "Registrieren",
+    "login": "Login",
+    "language": {
+      "german": "DE",
+      "french": "FR",
+      "italian": "IT"
+    },
+    "user": {
+      "title": "Anmeldung",
+      "addresses": "Liefer- und Rechnungsadresse",
+      "account": "Migros-Login Daten verwalten",
+      "login": "Anmelden",
+      "logout": "Abmelden"
+    }
+  },
+  "FOOTER": {
+    "Migros": "Die Migros",
+    "Migros-Genossenschafts-Bund": "Migros-Genossenschafts-Bund. Alle Rechte vorbehalten. Sämtliche Preisangaben sind unverbindlich. Preis- und Modelländerungen vorbehalten.",
+    "Products": "Produkte & Services",
+    "Check card value": "Kartenguthaben abfragen",
+    "Check card value link": "/reload",
+    "ProductOverview": "Produktübersicht",
+    "ProductOverviewLink": "https://www.migros.ch/de/services/geschenkkarten.html",
+    "BusinessCustomers": "Geschäftskunden",
+    "BusinessCustomersLink": "https://www.migros.ch/de/services/geschenkkarten/geschaeftskunden.html",
+    "DigitalCards": "Digitale Geschenkkarten",
+    "DigitalCardsLink": "https://www.migros.ch/de/services/geschenkkarten.html",
+    "SpecialCards": "Migros-Spezialkarten",
+    "SpecialCardsLink": "https://www.migros.ch/de/services/zahlungsmoeglichkeiten/cash-card/spezialkarten.html",
+    "PaymentDelivery": "Zahlung/Lieferung",
+    "PaymentDeliveryLink": "https://www.migros.ch/de/services/geschenkkarten/agb.html",
+    "Contact and help": "Kontakt & Hilfe",
+    "Contact M-Infoline": "Kontakt M-Infoline",
+    "Contact M-Infoline link": "https://www.migros.ch/de/services/kundendienst.html",
+    "FAQ": "Oft gestellte Fragen",
+    "FAQLink": "https://faq.migros.ch/de/geschenkkarte#mui-faq-content",
+    "AGB": "AGB's",
+    "AGBLink": "https://www.migros.ch/de/services/geschenkkarten/agb.html",
+    "Privacy": "Datenschutz",
+    "Privacy link": "https://www.migros.ch/de/datenschutz.html",
+    "LegalInfo": "Rechtliche Informationen",
+    "LegalInfoLink": "https://www.migros.ch/de/rechtliche-informationen.html",
+    "Impressum": "Impressum",
+    "ImpressumLink": "https://www.migros.ch/de/impressum.html",
+    "Career": "Karriere",
+    "Career link": "https://migros-gruppe.jobs/de",
+    "Media": "Medien",
+    "Media link": "https://www.migros.ch/de/unternehmen/medien.html",
+    "Business report": "Geschäftsbericht",
+    "Business report link": "https://report.migros.ch/2018/",
+    "Migros group": "Migros-Gruppe",
+    "Migros group link": "https://www.migros.ch/de/unternehmen/migros-gruppe.html",
+    "History": "Geschichte",
+    "History link": "https://www.migros.ch/de/unternehmen/geschichte.html",
+    "Cooperatives": "Genossenschaften",
+    "Cooperatives link": "https://www.migros.ch/de/genossenschaften.html",
+    "Stores": "Filialen",
+    "StoresLink": "https://filialen.migros.ch/de",
+    "Culture percent Migros": "Migros-Kulturprozent",
+    "Culture percent Migros link": "https://www.migros-kulturprozent.ch/de/home",
+    "Durable development": "Nachhaltigkeit",
+    "Durable development link": "https://generation-m.migros.ch/de.html"
+  },
+  "staging": {
+    "title": "Migros-Geschenkkarte",
+    "subTitle": "So erfüllt man Wünsche"
+  },
+  "navigation": {
+    "buyCard": "Karte kaufen",
+    "reloadCard": "Meine Karte"
+  },
+  "products": {
+    "unitPrice": "Wert pro Karte",
+    "variable": "Variabel",
+    "order": "Bestellen"
+  },
+  "product": {
+    "kindOfProduct": {
+      "title": "Art",
+      "analog": "Geschenkkarte",
+      "digital": "Digital als PDF"
+    },
+    "analog": {
+      "freePackaging": "Gratis-Geschenkverpackung"
+    },
+    "digital": {
+      "withGreetings": "Grussbotschaft",
+      "to": "An",
+      "atDate": "Per",
+      "greetingFrom": "Name des Absenders",
+      "greetingTo": "Name des Empfängers",
+      "greetingEmail": "Emailadresse des Empfängers",
+      "greetingEmailConfirmation": "Emailadresse des Empfängers bestätigen",
+      "greetingText": "Grussbotschaft",
+      "withGreetingText": "Grussbotschaft",
+      "greetingDelivery": "Versanddatum",
+      "characters": "Zeichen",
+      "layout": "Layout",
+      "sendTo": "Versand an",
+      "selectLayout": "Layout auswählen",
+      "applySelection": "Auswahl übernehmen",
+      "pdfPreview": "PDF Vorschau"
+    },
+    "backToCart": "Zurück zum Warenkorb",
+    "addToBasket": "In den Warenkorb",
+    "makeChange": "Änderungen übernehmen",
+    "clearBasket": "Warenkorb leeren",
+    "accordion": {
+      "description": "Beschreibung",
+      "descriptionText": "Die Geschenkkarten können in allen Migros-Filialen, in unseren Fachmärkten (Do it + Garden Migros, Micasa, Interio, melectronics, SportXX, SportXX Outdoor und Bike World by SportXX), bei der Klubschule Migros, bei OBI, im Ex Libris, im Alnatura Bio-Supermarkt, bei Migros Ferien, in den meisten Migros Gastronomiebetrieben und Migrol-Stationen mit Convenience-Shops (z.B. Migrolino) als Zahlungsmittel eingesetzt werden. Nicht akzeptiert werden die Karten jedoch in den Migros-Filialen im grenznahen Ausland.\r\n\r\nEine Saldoabfrage oder Wiederaufladung ist [hier](/reload) oder bei Ihrem Migros Kundendienst möglich.\r\n\r\nDie Gültigkeit erstreckt sich bei jedem Einkauf als auch beim Wiederaufladen automatisch um weitere 5 Jahre. Geschenkkarten sind frei übertragbar und haben keine Altersbeschränkung. Kein Umtausch, Barauszahlung des Gesamtbetrags oder Restsaldos möglich.\r\n\r\nMehr Informationen zu unseren Geschenkkarten finden sie hier ",
+      "delivery": "Lieferung",
+      "deliveryText": "Pro Auftrag beträgt das Bestellvolumen max. CHF 1’000.- / max. 10 Geschenkkarten.\r\n\r\nDie Geschenkkarten werden an die bei der Online-Bestellung angegebene Lieferadresse in der Schweiz gesandt. Der Kunde trägt die Gefahr der postalischen Zustellung. Es obliegt dem Kunden, die Ware sofort bei der Lieferung zu überprüfen und eventuelle Mängel oder Abweichungen von seiner Bestellung unverzüglich zu [beanstanden](https://www.migros.ch/de/services/kundendienst/infoline.html).\r\n\r\nIn der Regel werden die Geschenkkarten innerhalb von 2 Werktagen ab Versandbestätigung per A-Post geliefert. Die genannte Lieferfrist ist unverbindlich und deren Überschreitung gibt keinen Anlass zu einer Annullierung der Bestellung, einem Säumniszuschlag oder einer Entschädigung.",
+      "payment": "Zahlung/Rückgabe",
+      "paymentText": "Akzeptierte Zahlungsmittel sind VISA, MasterCard, Amexco, Diners, PostFinance, Twint, sowie Migros Bank. Der Geschenkkarten-Webshop ist aus Sicherheitsgründen so eingestellt, dass zurzeit nur Kreditkarten aus der Schweiz und dem grenznahen Ausland (Österreich, Deutschland, Italien, Österreich, Frankreich) akzeptiert werden. Der Kauf von Geschenkkarten auf Rechnung oder Vorkasse ist nicht möglich.\r\n\r\nDie Zahlungstransaktion wird in einem gesicherten Bereich des Zahlungsdienstanbieters Datatrans ausgeführt. Die vom Zahlungssystem gespeicherten Daten gelten als Beweis für sämtliche stattgefundenen Transaktionen zwischen der Migros und ihren Kunden. Der Gesamtbetrag der Bestellung wird erst zum Zeitpunkt des Versands belastet.\r\n\r\nEine Stornierung der Bestellung oder eine Rückgabe von bestellten oder gekauften Geschenkkarten ist nicht möglich."
+    }
+  },
+  "error": {
+    "addToBasket": {
+      "mixKindOfBasket": {
+        "title": "Wie Fortfahren?",
+        "body": "Leider können Sie digitale und physische Geschenkkarten nicht im selben Bestellvorgang bestellen, da die Bestellabwicklung unterschiedlich ist. Bitte schliessen Sie zuerst diese Bestellung ab oder löschen Sie alle Artikel aus Ihrem Warenkorb, um eine neue Bestellung zu beginnen.",
+        "goToBasket": "Zum Warenkorb und Check-out",
+        "clearBasket": "Warenkorb löschen und neuen Artikel hinzufügen"
+      }
+    },
+    "connection": "Es gab leider ein Problem. Bitte versuchen Sie es später nochmals.",
+    "exceededLimit": "Sie können nur maximal 10 Karten oder Karten im Wert von insgesamt 1'000.- bestellen.",
+    "underMinLimit": "Der Kartenwert für eine einzelne Karte darf 10.- nicht unterschreiten.",
+    "generic": "Ein unbekannter Fehler ist aufgetreten.",
+    "couldNotLoadLayoutName": "Die Bezeichnung konnte nicht geladen werden."
+  },
+  "cart": {
+    "card": "Karte",
+    "cards": "Karten",
+    "goToBasket": "Zum Warenkorb",
+    "addedToBasket": "Zum Warenkorb hinzugefügt",
+    "titleDeletePosition": "Möchten Sie die Position wirklich löschen?",
+    "sendTo": "Versand an ",
+    "sendToPurchaser": "Versand an Besteller"
+  },
+  "basket": {
+    "title": "Mein Warenkorb",
+    "greetings": "Grussbotschaft",
+    "total": "Total",
+    "goToPayment": "Weiter in der Bestellung",
+    "goBack": "Weiter einkaufen"
+  },
+  "checkout": {
+    "title": "Meine Bestellung prüfen",
+    "goBack": "zurück zum Warenkorb",
+    "pieceAt": "Karte/Karten à",
+    "deliveryCost": "Versandkosten",
+    "free": "gratis",
+    "termsOfService": "Ich erkläre mich mit den Allgemeinen Geschäftsbedingungen und den Datenschutzrichtlinien einverstanden.",
+    "buyNow": "Jetzt kaufen",
+    "address": {
+      "invoiceAddress": "Persönliche Angaben / Ihre Rechnungsadresse",
+      "deliveryAddress": "Ihre Lieferadresse",
+      "noDeliveryAddress": "Entspricht der Rechnungsadresse",
+      "mloginAddress": "Gespeicherte Adresse aus dem Migros Login",
+      "mr": "Herr",
+      "ms": "Frau",
+      "none": "Keine",
+      "company": "Firma",
+      "firstName": "Vorname",
+      "lastName": "Nachname",
+      "street": "Strasse",
+      "additional": "Adresszusatz",
+      "pobox": "Nummer",
+      "zip": "PLZ",
+      "city": "Ort",
+      "email": "E-Mail",
+      "phoneNumber": "Telefonnummer",
+      "birthDate": "Geburtsdatum",
+      "shapeOfBirthDate": "Beispiel Geburtsdatum",
+      "birthDateExpl": "Gewünschtes Format.: 31.12.1999",
+      "greetingPrintedOn": "Die Grussbotschaft wird dem beiliegenden Schreiben aufgedruckt"
+    },
+    "payment": {
+      "choose": "Zahlungsart wählen",
+      "twint": "TWINT",
+      "creditCard": "Kreditkarte",
+      "postFinance": "PostFinance",
+      "migrosBank": "Migros Bank"
+    },
+    "error": {
+      "selectTermsOfService": "Bitte akzeptieren Sie die Allgemeinen Geschäftsbedingungen",
+      "plsSelect": "Bitte treffen Sie eine Auswahl",
+      "chooseAddress": "Bitte wählen Sie eine Adresse aus",
+      "loadedAddress": "Bitte wählen Sie eine Adresse aus",
+      "plsFillOut": "Bitte korrekt ausfüllen",
+      "notMatching": "Die Felder stimmen nicht überein",
+      "mailNotValid": "Die eingegebene E-Mailadresse ist nicht gültig"
+    },
+    "datatransError": {
+      "title": "Transaktions Error",
+      "body": "Bitte versuchen Sie es später nochmals"
+    }
+  },
+  "confirmation": {
+    "analog": {
+      "title": "Vielen Dank für Ihre Bestellung. Die Geschenkkarten sind schon sehr bald unterwegs, um Freude zu verschenken.",
+      "body": "Sie erhalten in Kürze eine E-Mail, mit der wir Ihnen den Bestelleingang bestätigen. Sollten Sie keine E- Mail erhalten, bitten wir Sie, Ihren Spam-Ordner zu überprüfen oder mit uns Kontakt aufzunehmen."
+    },
+    "digital": {
+      "title": "Vielen Dank für Ihre Bestellung. Schon bald wird die digitale Geschenkkarte Freude bereiten.",
+      "body": "Sie erhalten in Kürze eine E-Mail, mit der wir Ihnen den Bestelleingang bestätigen. Anschliessend wird die digitale Geschenkkarte an die angegebene E-Mail-Adresse versendet. Sollten Sie keine E-Mail erhalten, bitten wir Sie, Ihren Spam-Ordner zu überprüfen oder mit uns Kontakt aufzunehmen."
+    },
+    "reload": {
+      "title": "Vielen Dank für Ihre Bestellung. Das Guthaben steht Ihnen in wenigen Momenten zur Verfügung. Wir wünschen Ihnen viel Freude damit.",
+      "body": "Sie erhalten in Kürze eine E-Mail, mit der wir Ihnen den Bestelleingang bestätigen. Sollten Sie keine E-Mail erhalten, bitten wir Sie, Ihren Spam-Ordner zu überprüfen oder mit uns Kontakt aufzunehmen.",
+      "continue": "Weitere Geschenkkarte aufladen"
+    },
+    "yourOrderNumber": "Ihre Bestellnummer",
+    "invoiceAddress": "Rechnungsadresse",
+    "deliveryAddress": "Lieferadresse",
+    "continueShopping": "Neue Bestellung starten",
+    "paymentType": "Zahlungsart",
+    "print": "Drucken",
+    "paymentMethodDatatrans": {
+      "VIS": "Visa",
+      "ECA": "MasterCard",
+      "AMX": "American Express",
+      "DIN": "Diners Club",
+      "DIS": "Discover",
+      "JCB": "JCB",
+      "DNK": "Dankort",
+      "MYO": "Manor MyOne",
+      "CUP": "China UnionPay",
+      "JEL": "Jelmoli Bonus Card",
+      "PFC": "PostFinance Card",
+      "PEF": "PostFinance eFinance",
+      "MDP": "Migros E-Pay",
+      "TWI": "TWINT"
+    }
+  },
+  "reload": {
+    "title": "Saldo abfragen / Geschenkkarte aufladen",
+    "body": "Hier können Sie schnell und unkompliziert den aktuellen Saldo Ihrer Geschenkkarte abfragen und neues Guthaben auf Ihre Karte laden.",
+    "enterNumber": "Geben Sie Ihre Kartennummer und Ihren PIN ein.",
+    "cardNumber": "Kartennummer",
+    "pin": "PIN",
+    "pleaseChoose": "Bitte wählen",
+    "actualBalance": "aktuelles Guthaben CHF",
+    "reloadAmount": "Aufladung um CHF",
+    "balanceAfterReload": "Guthaben nach Aufladung CHF",
+    "yourEmail": "Ihre E-Mail Adresse",
+    "repeat": "(wiederholen)",
+    "email": "Email",
+    "chooseOtherCard": "Andere Geschenkkarte erfassen",
+    "checkout": "Zur Kasse",
+    "pieceAt": "Aufladung  à",
+    "error": {
+      "pin": "Bitte korrekt ausfüllen.",
+      "cardNumber": "Bitte korrekt ausfüllen.",
+      "inputException": "Die eingegebene Kartennummer oder die eingegebene PIN ist ungültig. Bitte überprüfen Sie Ihre Eingabe.",
+      "cardBlockedException": "Diese Karte ist leider blockiert.",
+      "cardExpiredException": "Diese Karte ist leider abgelaufen.",
+      "getInfo": "Bitte überprüfen Sie Ihre Eingabe.",
+      "enteredAmount": "Der eingegebene Betrag ist leider nicht möglich."
+    },
+    "deleteEnteredInformation": "Sind Sie sicher, dass Sie eine andere Karte erfassen möchten und damit die gemachten Eingaben gelöscht werden?",
+    "paymentReject": "Es gab ein Problem bei der Zahlung.",
+    "infoAlt": "Kartenrückseite"
+  },
+  "login": {
+    "title": "Anmeldung",
+    "loginWithMLogin": "Login für bestehende Kunden",
+    "loginAsGuest": "Anmeldung als Gast",
+    "continueAsGuest": "Weiter als Gast",
+    "infoMLogin": "Einmal anmelden und alle Services nutzen."
+  },
+  "download": {
+    "overview": {
+      "title": "Download-Übersicht",
+      "body": "Eine Übersicht, ob die digitalen Karten vom Empfänger resp. von den Empängern schon runtergeladen wurden.",
+      "value": "Wert der Karte",
+      "cardNumber": "Kartennummer",
+      "pdfEmail": "Das PDF-Mail",
+      "wasSentTo1": "wurde am",
+      "wasSentTo2": "an",
+      "wasSentTo3": "gesandt und",
+      "downloaded": "heruntergeladen am",
+      "notYetDownloaded": "noch nicht heruntergeladen.",
+      "from": "vom",
+      "notYetSent": "Das E-Mail wurde noch nicht zugestellt.",
+      "noEmail": "Wir haben keine E-Mailadresse für die Zustellung, bitte kontaktieren Sie unseren Kundensupport."
+    },
+    "download": {
+      "title": "Laden Sie Ihre digitale Geschenkkarte herunter",
+      "body": "Bitte geben Sie hier den Authorisierungscode, den Sie im Mail erhalten haben, unten ein.",
+      "authorizationCode": "Authorisierungscode",
+      "download": "Herunterladen",
+      "wrongAuthorizationCode": "falscher Authorisierungscode"
     }
   }
 }
